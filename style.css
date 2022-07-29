@@ -1055,9 +1055,16 @@ h4 {
 /* ---------------------------- */
 h2{ 
     margin: 0 auto;
-    width: 90%;
+    width: 75%;
     text-align: center;
     font-family: Helvetica, sans-serif;
-    letter-spacing: -0.8px;
+    letter-spacing: -0.2px;
 }
 
+#bloc-4-portfolio h2{
+    width: 75%;
+    letter-spacing: 0px;
+    color: red;
+    
+
+}
