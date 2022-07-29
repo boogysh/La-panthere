@@ -1084,6 +1084,22 @@ blockquote p{
     color:#999! important;
     
 }
+@media (max-width: 330px){
+    #bloc-0 img{
+        width:180px ;
+        margin-right: 0;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    img.center-block.image-resize-mode{
+        width: 80px;
+        width: 80px;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+} 
     
     
     
