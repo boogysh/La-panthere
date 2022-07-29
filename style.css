@@ -1104,8 +1104,14 @@ blockquote p{
         width: 100%;
     }
     
+}
+.img-responsive,
+.portfolio-thumb{
     
-} 
+    width: 100%;
+}
+
+    
     
     
     
