@@ -1,0 +1,59 @@
+Barre d'outils WebAIM WAVE
+
+L'avantage de l'outil WAVE est qu'il affiche les erreurs sous forme visuelle à l'endroit précis où elles se produisent, pour vous permettre de les localiser rapidement sur la page.
+---------------------------------------------------------------------
+aXe
+aXe est un outil un peu plus technique. Il ne vous montre pas les caractéristiques structurelles ni l'endroit où le balisage ARIA est utilisé. Au lieu de cela, il présente les erreurs sous la forme d'une liste dans vos outils d'inspection. L'avantage d'aXe est que vous pouvez facilement basculer entre l'inspection de la liste d'erreurs et le code dans lequel les erreurs se trouvent, en cliquant sur « Inspect node »
+-----------------------------------------------------
+
+
+TPG Colour Contrast Analyzer --installé--
+
+. Pour le texte ordinaire, le rapport de contraste doit être de 4.5:1 ou plus. Pour le texte de grande taille (18pt+) ou plus gras (14pt+) et pour le contenu non textuel important, tel que les icônes, il peut être un peu inférieur (3:1 ou plus).
+PT ICONS 3:1
+-----------------------------------------------------------
+-----------------------------
+----------------------------
+
+Navigation sans souris
+1.Elements utilisables
+2.Ordre des elements
+3.Indicateur de position
+4.sauter des blocs répétés
+---------Toutes les fonctions sont accessibles avec un clavier (SC 2.1.1).
+
+Le focus reste bloqué quelque part sur la page (SC 2.1.2).
+
+Un lien d'accès direct au contenu vous permet de passer rapidement des blocs de navigation qui se répètent (SC 2.4.1).
+
+L'ordre de focus des éléments est logique (SC 2.4.3).
+
+Un indicateur de focus est visible (SC 2.4.7).
+----------------------------------------------------
+------------------------------
+ testez manuellement votre site
+ testez manuellement votre site
+ testez manuellement votre site
+
+https://s3-eu-west-1.amazonaws.com/course.oc-static.com/courses/6691346/Guide+de+test+d'accessibilite%CC%81+des+WCAG.pdf
+
+------------------------------------------------------
+. Les vues mobiles sont plus susceptibles d'influer sur l'utilisabilité du clavier et l'ordre du focus.
+---------------------------------------------------
+pour les onglets:
+
+L’attribut role="tablist" doit être appliqué sur l’élément qui englobe les onglets.
+
+L’attribut role="tab" doit être appliqué sur chaque onglet.
+
+L’attribut tabindex doit être appliqué sur chaque onglet. Sa valeur doit être renseignée dynamiquement en fonction de l’état de l’onglet associé :
+tabindex="0" sur l’onglet sélectionné.
+tabindex="-1" sur les autres onglets, non sélectionnés.
+
+Chaque onglet doit être associé à son panneau via l’attribut aria-controls :
+--------------
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+https://www.accede-web.com/notices/interface-riche/onglets/
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+---------------
+Les onglets doivent être inclus dans un élément avec role="tablist", les onglets individuels doivent avoir role="tab", et le contenu de chaque onglet doit avoir role="tabpanel". Vous pouvez trouver ces informations dans les documents ARIA spec et authoring practices. Ce modèle nécessite également un attribut aria-selected pour indiquer quel onglet est actif, et un attribut aria-controls pour établir une relation programmatique entre le contrôle des onglets et le contenu. Cependant, aria-selected et aria-controls sont des états et des propriétés.
