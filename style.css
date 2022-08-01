@@ -703,7 +703,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: rgb(60, 60, 60)!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -791,12 +791,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: rgb(60, 60, 60)!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: rgb(0, 0, 0)!important;
 }
 
 .ltc-white {
@@ -1110,6 +1110,8 @@ blockquote p{
     
     width: 100%;
 }
+
+
 
     
     
