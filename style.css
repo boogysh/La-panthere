@@ -1129,9 +1129,14 @@ blockquote p{
     text-shadow: 0 0 10px black;
 }
 #page_contact h1{
-    
-    text-shadow: 0 0 10px black;
+    color:rgb(30,30,30)!important;
+    text-shadow:0 0 3px white;
 }
+.p-contrast{
+    color: black!important;
+    text-shadow:0px 0px 3px white;
+}
+    
 
 
 
