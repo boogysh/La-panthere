@@ -89,13 +89,19 @@ a:hover {
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+    right:0;
+   
 }
+
+    
+    
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
+    
+    
 
 .b-parallax {
     background-attachment: fixed;
@@ -834,8 +840,10 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
+    
+    
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1120,6 +1128,15 @@ blockquote p{
 #bloc-3-what-i-do h2{
     text-shadow: 0 0 10px black;
 }
+#page_contact h1{
+    
+    text-shadow: 0 0 10px black;
+}
+
+
+
+
+
     
     
     
