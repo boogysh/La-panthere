@@ -1143,9 +1143,6 @@ blockquote p{
     .icon-social{
         padding: 0 2rem 0 2rem;
     }
-
-        
-
 }
 
 .img-responsive,
@@ -1182,6 +1179,18 @@ blockquote p{
 }
 .text-center.margin{
     margin-bottom: 2rem;
+}
+#bloc-7 h2{
+    
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 5px!important;
+    padding-top: 3rem;
+
+}
+.container.bloc-lg{
+    padding-top: 2rem;
 }
 
     
