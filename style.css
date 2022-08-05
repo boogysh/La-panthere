@@ -1112,13 +1112,26 @@ blockquote p{
         font-size: 1.8rem;
     }
      h2{
-        width: 100%;
+        width: 90%;
     }
     .row.row-adjust{
         flex-direction: column;
     }
     .col-sm-4.links{
         margin-left: 2rem;
+    }
+    .portfolio-row{
+        margin-bottom:10px;
+        margin-top: 10px;
+    }
+    p.text-center.white{
+        
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .col-sm-12{
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media (max-width: 767px){
