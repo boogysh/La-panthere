@@ -1114,8 +1114,27 @@ blockquote p{
      h2{
         width: 100%;
     }
-    
+    .row.row-adjust{
+        flex-direction: column;
+    }
+    .col-sm-4.links{
+        margin-left: 2rem;
+    }
 }
+@media (max-width: 767px){
+    .row.row-social{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .icon-social{
+        padding: 0 2rem 0 2rem;
+    }
+
+        
+
+}
+
 .img-responsive,
 .portfolio-thumb{
     
@@ -1135,23 +1154,22 @@ blockquote p{
 .p-contrast{
     color: black!important;
     text-shadow:0px 0px 3px white;
+    
 }
+.row.row-adjust{
+    display: flex;
+    justify-content: center;
+}
+.col-sm-4.links{
+    width:max-content;
+    margin-top: 1rem;
+}
+.col-sm-4.links ul{
+    padding-left: 1.2rem;
+}
+.text-center.margin{
+    margin-bottom: 2rem;
+}
+
     
 
-
-
-
-
-    
-    
-    
-    
-    
-
-
-
-
-    
-    
-    
-    
