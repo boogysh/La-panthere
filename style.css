@@ -1211,6 +1211,10 @@ blockquote p{
 .item-nav:hover.item-nav::after{
     width: 100%;
 }
+.active.item-nav::after{
+    width: 100%;
+
+}
 
 
     
