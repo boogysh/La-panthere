@@ -1192,6 +1192,25 @@ blockquote p{
 .container.bloc-lg{
     padding-top: 2rem;
 }
+.item-nav{
+    display: block;
+    
+}
+
+
+.item-nav::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #F3976C;
+    transition: width 0.3s ease-in-out;
+    
+}
+.item-nav:hover.item-nav::after{
+    width: 100%;
+}
 
 
     
