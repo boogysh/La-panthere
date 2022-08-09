@@ -1163,7 +1163,10 @@ blockquote p{
 }
 .p-contrast{
     color: black!important;
-    text-shadow:0px 0px 3px white;
+    text-shadow:0px 0px 1px white;
+    font-weight: 600;
+    font-size: 1.4rem;
+    width: 70%;
     
 }
 .row.row-adjust{
