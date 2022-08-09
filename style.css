@@ -1197,6 +1197,8 @@ blockquote p{
 }
 .item-nav{
     display: block;
+    width: max-content;
+    margin: 0 auto;
     
 }
 
