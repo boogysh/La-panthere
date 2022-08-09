@@ -1211,8 +1211,12 @@ blockquote p{
     margin: 0 auto;
     background-color: #F3976C;
     transition: width 0.3s ease-in-out;
-    
 }
+/* .item-nav:active.item-nav::after{
+    width: 100%;
+} */
+
+
 .item-nav:hover.item-nav::after{
     width: 100%;
 }
@@ -1220,6 +1224,25 @@ blockquote p{
     width: 100%;
 
 }
+#bloc-0{
+    position: fixed;
+    z-index: 999;
+    border-bottom:solid 1px black;
+    
+}
+#bloc-2-services,
+#bloc-3-what-i-do,
+#bloc-4-portfolio{
+    scroll-margin: 90px;
+}
+#bloc-1-hero{
+    padding-top: 90px;
+}
+#bloc-6{
+    padding-top: 90px;
+}
+
+
 
 
     
