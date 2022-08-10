@@ -1212,23 +1212,19 @@ blockquote p{
     background-color: #F3976C;
     transition: width 0.3s ease-in-out;
 }
-/* .item-nav:active.item-nav::after{
-    width: 100%;
-} */
-
-
 .item-nav:hover.item-nav::after{
+    width: 100%;
+}
+.item-nav:active .item-nav::after{
     width: 100%;
 }
 .active.item-nav::after{
     width: 100%;
-
 }
 #bloc-0{
     position: fixed;
     z-index: 999;
     border-bottom:solid 1px black;
-    
 }
 #bloc-2-services,
 #bloc-3-what-i-do,
@@ -1241,7 +1237,6 @@ blockquote p{
 #bloc-6{
     padding-top: 90px;
 }
-
 
 
 
