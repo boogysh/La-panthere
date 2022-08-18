@@ -1262,7 +1262,8 @@ blockquote p{
     margin-bottom: 2rem;
 } */
 #cta-hero,
-#link-objectives{
+#link-objectives,
+#contact-bloc-5{
     position:relative;
 }
 #link-objectives{
@@ -1297,10 +1298,11 @@ blockquote p{
     top: -100%;
 }
 #contact-bloc-5:after{
-    width: 20%;
-    height: 120%;
-    left: 40%;
-    top: 4%;
+    width: 120%;
+    height: 160%;
+    left: -10%;
+    top: -30%;
+    
 }
 
 
@@ -1342,6 +1344,9 @@ textarea:focus{
 } 
 #btn-send:focus{
     border: 2px solid rgb(80, 80, 80);
+}
+#nav-toggle:focus   {
+    border: 2px solid rgb(255, 134, 47);
 }
 
 
